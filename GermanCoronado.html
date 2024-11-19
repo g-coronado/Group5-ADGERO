@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Pregnancy by German Coronado</title>
+    <link rel="stylesheet" href="./styles/GermanCoronado.css">
+</head>
+<!-- The body is composed of 1 nav bar, 1 main, 1 aside and 1 footer.  The main contains 6 sections -->
+<body>
+    <header>
+        <h1>Multiple Pregnancy</h1>
+        <nav>
+            <a class="navText" href="./index.html">Main Page</a>
+            <a class="navText" href="./AdeyomiSolomon.html">Adeyomi's Page</a>
+            <a class="navText" href="./RomeoCruz.html">Romeo's Page</a> 
+        </nav>        
+    </header>
+    <nav id="thetop">
+        <br>
+        <!-- I use a div to handle the main margin in the nav var -->
+        <div class="divNav">
+            <a class="navText1" href="#topic-1">Description</a>
+            <a class="navText1" href="#topic-2">Causes</a>
+            <a class="navText1" href="#topic-3">How does happen?</a>
+            <a class="navText1" href="#topic-4">Risks</a>
+            <a class="navText1" href="#topic-5">Parents</a>
+            <a class="navText1" href="#topic-6">FAQ&apos;s</a>
+            <a class="navText1" href="#topic-7">Additional Info</a>
+        </div>
+        <br>
+    </nav>
+    <!-- Using a div to add a margin to the entire content -->
+    <div class="content"> 
+            <!-- My main is composed of six main sections.  Each section contains relevant and related information to web page.-->
+        <main>
+            <img id="image1" src="./assets/images/CPtriplets.jpg" alt="Three children">
+            <h2>Multiple Pregnancy for beginners</h2>
+            <p>This page will help you to understand what is Multiple Pregnancy, what are it causes, how it happen, and the risk associated to it.</p>
+            <!-- Adding a blank space and a line to make more clarity in the passing to topics. -->
+            <br>
+            <hr>        
+            <section id="topic-1">
+
+                <h3>General <span class="highlight">Description</span></h3>
+                <!-- I am using italic at paragraph level to make more clear the name of the web page used -->
+                <p>Here is a description of Multiple Pregnancy from <i>My Health Alberta</i> web page:<sup><a href="#source-0">[1]</a></sup></p>
+                <!-- I am using the blockquote to cite due that this is a long quotate, this element was not covered in class -->
+                <blockquote cite="https://myhealth.alberta.ca/Health/pages/conditions.aspx?hwid=hw236272">
+                    <!-- At the paragraph I am using the quote marks and addign a blank space to make more evident the quotation. -->
+                    <p>&quot;<br>A multiple pregnancy means that there are two or more babies in the uterus. A pregnancy of twins or more is considered to be high-risk. Problems are more common in multiple pregnancies than in pregnancies of one fetus (singleton pregnancy).  The babies in a multiple pregnancy may be identical or fraternal.</p>
+                        <!-- Using the flex layout.  I defined a div section to handle this two headers as two columns -->
+                        <div class="flexcontainer">
+                            <!-- adding a section to define and handle the column -->
+                            <section class="fcolumn">
+                                <h4>Identical Siblings</h4>
+                                <p>Babies that come from the same egg are called identical. This happens when one egg is fertilized by one sperm, and the fertilized egg then splits into two or more embryos.<br>Experts think that the process that results in identical siblings happens by chance. It isn&apos;t related to the parents&apos; age, race, or family history. <br>If the babies you're carrying are identical, the siblings:</p>
+                                <ul>
+                                    <li>Are all of the same sex, either all boys or all girls.</li>
+                                    <li>All have the same blood type.</li>
+                                    <li>Probably will have the same body type and the same colour skin, hair, and eyes. But they may not look exactly the same. They also won't have the same fingerprints.</li>
+                                </ul>    
+                            </section>
+                            <!-- adding a section to define and handle the column -->
+                            <section class="fcolumn">
+                                <h4>Fraternal Siblings</h4>
+                                <p>Babies that come from different eggs are called fraternal. This happens when two or more eggs are fertilized by different sperm. <br>Fraternal twins tend to run in families. This means that if anyone in your family has had fraternal twins, you're more likely to have them too. <br>If the babies you're carrying are fraternal, the siblings:</p>
+                                <ul>
+                                    <li>May be of different sexes.</li>
+                                    <li>May have different blood types.</li>
+                                    <li>May look different from each other or may look the same, as some brothers and sisters do.</li>
+                                </ul>
+                            </section>  
+                        </div>
+                        <p>&quot;</p>  
+                </blockquote>
+                <!-- I am adding an internal link in the page to go to the top of the page, I am also using the div to isolate the anchor in case I want to add additional functionalities like buttons -->
+                <div><a href="#thetop">Back to the top</a></div>
+                <!-- Adding a line to make more clearly the topics division -->
+                <hr>
+            </section>
+            <section  id="topic-2">
+                <h3><span class="highlight">Causes</span> of Multiple Pregnancy</h3>
+                <!-- Using the Multicol layout.  I defined a div section to handle two columns -->
+                <div id="multicolcontainer1">
+                    <!-- I am using italic at paragraph level to make more clear the name of the web page used -->
+                    <p>Here is a description of causes of multiple pregnancy from <i>Standford Medicine Children&apos;s Health</i> web page:<sup><a href="#source-2">[2]</a></sup></p>
+                    <!-- I am using the blockquote to cite due that this is a long quotate, this element was not covered in class -->
+                    <blockquote cite="https://www.stanfordchildrens.org/en/topic/default?id=overview-of-multiple-pregnancy-85-P08019">
+                        <p>&quot;<br>Many factors are linked to having a multiple pregnancy. Naturally occurring factors are:</p>
+                        <ul id="columnbreak">
+                            <li>Heredity. A family history of multiple pregnancy raises the chances of having twins.</li>
+                            <li>Older age. Women older than 30 have a greater chance of multiple conception. Many women today are waiting to have children until later in life. They may have twins as a result.</li>
+                            <li>High parity. Having 1 or more previous pregnancies, especially a multiple pregnancy, raises the chances of having multiples.</li>
+                            <li>Race. African-American women are more likely to have twins than any other race. Asian and Native Americans have the lowest twinning rates. White women, especially those older than 35, have the highest rate of higher-order multiple births (triplets or more).</li>
+                        </ul>
+                        <br>
+                        <p>Other factors that have greatly raised the multiple birth rate in recent years are reproductive technologies such as:</p>
+                        <ul>
+                            <li>Ovulation-stimulating medicines, such as clomiphene citrate and follicle stimulating hormone (FSH). These help produce many eggs. If fertilized, they can result in multiple babies.</li>
+                            <li>Assisted reproductive technologies. In vitro fertilization (IVF) and other methods may help couples get pregnant. These technologies often use ovulation-stimulating medicines to produce multiple eggs. These are then fertilized in the lab and returned to the uterus to grow.</li>
+                        </ul>
+                        <p>&quot;</p>
+                    </blockquote>
+                </div>           
+
+                <!-- I am adding an internal link in the page to go to the top of the page, I am also using the div to isolate the anchor in case I want to add additional functionalities like buttons -->
+                <br>
+                <div><a href="#thetop">Back to the top</a></div>
+                <!-- Adding a line to make more clearly the topics division -->
+                <hr>
+            </section>
+            <section  id="topic-3">
+                <h3><span class="highlight">How Does</span> Multiple Pregnancy <span class="highlight">Happen?</span></h3>
+                <br>
+                <!-- To have a better handling of the float I added a div wrapper -->
+                <div class="ctopic3">
+                    <img id="image2" src="./assets/images/howhappen.png" alt="the uterus with twins">
+                    <!-- I am using italic at paragraph level to make more clear the name of the web page used -->
+                    <p>Here is a description of how multiple pregnancy happen from the <i>University of Rochester Medical Center</i> web page:<sup><a href="#source-3">[3]</a></sup></p>
+                    <!-- I am using the blockquote to cite due that this is a long quotate, this element was not covered in class -->
+                    <blockquote cite="https://www.urmc.rochester.edu/encyclopedia/content.aspx?contenttypeid=85&contentid=P08019">
+                        
+                        <p>&quot;<br>Multiple pregnancy often happens when 2 or more eggs are fertilized and implant in the uterus. This is called fraternal twinning. These babies can be the same sex or the opposite sex. Fraternal multiples are simply siblings conceived at the same time. But just as siblings often look alike, fraternal multiples may look very similar. Fraternal multiples each have a separate placenta and amniotic sac.</p>
+                        
+                        <p>Sometimes 1 egg is fertilized and then splits into 2 or more embryos. This is called identical twinning. When this happens, the babies are the same sex. Identical multiples are genetically the same. They often look so much alike that even parents have a hard time telling them apart. But these children have different personalities and are distinct people. Identical multiples may have individual placentas and amniotic sacs. Most share a placenta with separate sacs. In rare cases, identical twins share 1 placenta and a single amniotic sac. &quot;</p>
+                        
+                    </blockquote> 
+                </div>
+                <!-- I am adding an internal link in the page to go to the top of the page, I am also using the div to isolate the anchor in case I want to add additional functionalities like buttons -->    
+                <div><a href="#thetop">Back to the top</a></div>
+                <!-- Adding a line to make more clearly the topics division -->
+                <hr>
+            </section>
+            <section  id="topic-4">
+                <h3><span class="highlight">Risks</span> of Multiple Pregnancy</h3>
+                <!-- I am using italic at paragraph level to make more clear the name of the web page used -->
+                <p>Here is a description of why multiple pregnancy is a concern from the <i>Johns Hopkins Medicine </i> web page:<sup><a href="#source-3">[4]</a></sup></p>
+                <blockquote cite="https://www.hopkinsmedicine.org/health/conditions-and-diseases/staying-healthy-during-pregnancy/complications-of-multiple-pregnancy">
+                    <p>&quot;<br>Being pregnant with more than one baby is exciting and is often a happy event for many couples. However, multiple pregnancy has increased risks for complications. The most common complications include the following:</p>
+                    <ul id="multicolcontainer2">
+                        <li>Preterm labor and birth</li>
+                        <li>Gestational hypertension</li>
+                        <li>Anemia</li>
+                        <li>Birth defects</li>
+                        <li>Miscarriage</li>
+                        <li>Twin-to-twin transfusion syndrome</li>
+                        <li>Abnormal amounts of amniotic fluid</li>
+                        <li>Cesarean delivery</li>
+                        <li>Postpartum hemorrhage</li>
+                    </ul>
+
+                    
+                    
+                    <p>&quot;</p>
+                </blockquote>
+                <!-- I am adding an internal link in the page to go to the top of the page, I am also using the div to isolate the anchor in case I want to add additional functionalities like buttons -->
+                <div><a href="#thetop">Back to the top</a></div>
+                <!-- Adding a line to make more clearly the topics division -->
+                <hr>
+            </section>
+            <section  id="topic-5">
+                <h3><span class="highlight">Parents</span> of Multiples</h3>
+                 <!-- Using the Grid layout  -->
+                <div id="gridcontainer2">
+                    <p><q>Parents and caregivers of multiples face some unique challenges, but there's no need to go it alone.</q> You are not alone; you are not the first and you are not going to be the last.  Connecting with others will be beneficial for you and others you can receive tips and advice from people who knows what is like, eve you can share your own experiences as well.<br>Here is the link of the Multiple Births Canada, it have a lot of information that could be benefical for you: <a href="https://www.multiplebirths.ca/parents-of-multiples">Multiple Births Canada</a></p>    
+                    <div>
+                        <img id="image3" src="./assets/images/CPfamily.jpg" alt="A family of five walking with a dog">
+                    </div>
+                    
+                </div>
+                <div><br><a href="#thetop">Back to the top</a></div>
+                <hr>
+            </section>
+            <section  id="topic-6">
+                <h3><span class="highlight">F</span>requently <span class="highlight">A</span>sked <span class="highlight">Q</span>uestions</h3>
+                <!-- Using the Grid layout  -->
+                <div id="gridcontainer1">
+                    <p>Here you will find some common questions related to Multiple Pregnancy:</p>
+                    <details>
+                        <summary>What is the &quot;Vanishing Twin Syndrome&quot;?</summary>
+                        <p class="faqParagraph">Sometimes, very early in a twin pregnancy, one of the fetuses &quot;disappears.&quot; This is referred to as the &quot;vanishing twin syndrome.&quot;</p>
+                        <!-- Using <br> to add a blank space for a better presentation -->
+                        <br>
+                    </details>
+                    <details>
+                        <summary>How frequently occurs a multiple birth?</summary>
+                        <p class="faqParagraph">Multiple births are much more common today than they were in the past. According to the US Department of Health and Human Services, the twin birth rate has increased by over 75% since 1980, and triplet, quadruplet, and high-order multiple births have increased at an even higher rate.</p>
+                        <!-- Using <br> to add a blank space for a better look and feel -->
+                        <br>
+                    </details>
+                    <details>
+                        <summary>What are the special names of Multiple Births?</summary>
+                        <table class="tablefaq">
+                            <caption><br>Reference table of Multiple Birth terms</caption>
+                            <thead>
+                                <tr>
+                                    <th>&nbsp;Babies&nbsp;</th>
+                                    <th>Term Used</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tdcenter">1</td>
+                                    <td>&nbsp;Singleton&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">2</td>
+                                    <td>&nbsp;Twins&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">3</td>
+                                    <td>&nbsp;Triplets&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">4</td>
+                                    <td>&nbsp;Quadruplets (Quads)&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">5</td>
+                                    <td>&nbsp;Quintuplets (Quints)&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">6</td>
+                                    <td>&nbsp;Sextuplets&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">7</td>
+                                    <td>&nbsp;Septuplets&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">8</td>
+                                    <td>&nbsp;Octuplets&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">9</td>
+                                    <td>&nbsp;Nonuplets&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                    </details>
+                    <details>
+                        <summary>What is the duration of Multiple Pregnancies?</summary>
+                        <table class="tablefaq">
+                            <caption><br>Reference table of Multiple Pregnancy duration</caption>
+                            <thead>
+                                <tr>
+                                    <th>&nbsp;Type of pregnancy&nbsp;</th>
+                                    <th>Average gestational age at time of delivery</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tdcenter">Singleton</td>
+                                    <td class="tdcenter">38.6 weeks</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">Twins</td>
+                                    <td class="tdcenter">35 weeks</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">Triplets</td>
+                                    <td class="tdcenter">32 weeks</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">Quadruplets (Quads)</td>
+                                    <td class="tdcenter">30 weeks</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </details>
+                    <details>
+                        <summary>What is the average birth weight of Multiple Pregnancies?</summary>
+                        <table class="tablefaq">
+                            <caption><br>Reference table of Multiple Pregnancy average birth weight</caption>
+                            <thead>
+                                <tr>
+                                    <th>&nbsp;Type of pregnancy&nbsp;</th>
+                                    <th>Average gestational age at time of delivery</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="tdcenter">Singleton</td>
+                                    <td class="tdcenter">7.3 lb. (3,300 grams)</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">Twins</td>
+                                    <td class="tdcenter">5.1 lb. (2,300 grams)</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">Triplets</td>
+                                    <td class="tdcenter">3.7 lb. (1,660 grams)</td>
+                                </tr>
+                                <tr>
+                                    <td class="tdcenter">Quadruplets (Quads)</td>
+                                    <td class="tdcenter">2.9 lb. (1,300 grams)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                    </details>
+                    <details>
+                        <summary>What are the psychosocial effects of Multiples on a family?</summary>
+                        <p>Here is a description of psychosocial effects of Multiples on a family from <i>American Society for Reproductive Medicine (ASRM) </i> web page:<sup><a href="#source-6">[6]</a></sup></p>
+                        <blockquote>
+                            <p class="faqParagraph">&quot;<br>Although the majority of women with a multiple pregnancy do very well, their families may experience significant stress. If prolonged hospitalization is needed, arrangements must be made for work, home, and family care.</p>
+                            <p class="faqParagraph">Even when medical problems are overcome and the infants survive without disability, the effect of multiple births on family life is substantial. The impact of a multiple birth clearly affects the parents, but also the babies, other siblings, and the extended family. Financial stresses are common, due to the additional costs of feeding, clothing, housing, and caring for multiple children. Postpartum depression also is more common after delivery of multiple pregnancies in both the mother and the father and may be long-term.<br>&quot;</p>
+                        </blockquote>
+                        <!-- Using <br> to add a blank space for a better look and feel -->
+                        <br>
+                    </details>
+                    
+    
+                </div>
+                <!-- Using <br> to add a blank space before the return link -->
+                <br> 
+                <div><a href="#thetop"><br>Back to the top</a></div>
+                <!-- Adding a line to make more clearly the topics division -->
+                <hr>
+            </section>
+        </main>   
+        <!-- I decided to use the aside to include the contact information, it is not relevant to the main content-->
+        <aside id="topic-7">
+            <h3><span class="highlight">Additional Info</span>rmation</h3>
+            <div class="flexcontainer">
+                <div class="fcolumn">
+                    <div class="flexmargin">
+                        <h4>German Coronado Perez</h4>
+                        <p>I am 52 years old, married, and father of triplets; my children are 13 years old.  During the process of conception and their growing, my wife and I faced a lot off issues due to lack of information and support.  Growing multiples is really different and this page is intended to provide information about different topics that could be usefull for parents expecting or already with &quot;multiple&quot; children.</p>
+                    </div>
+                    
+                        
+                </div>
+                <div class="fcolumn">
+                    <br>
+                    <!-- To collect information I added a contact me section using form and fieldset.  Data is not collected
+                    I am adding an alert message using the onclick attribute indicating it is for demo purposes. -->
+                    <form id="myForm">
+                        <fieldset>
+                            <legend>Contact Me:</legend>
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname"><br><br>
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname"><br><br>
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email"><br><br>
+                            <input type="submit" value="Submit" onclick="alert('This message is for demo purposes, your data has not been stored or shared.')">
+                        </fieldset>
+                    </form>    
+                </div>
+            </div>
+            <div><a href="#thetop"><br>Back to the top</a></div>
+            <!-- Using <hr> to add a line for better look and feel. -->
+            <hr>
+        </aside>
+        <footer>
+            <h4 id="source-0">Reference Table</h4>
+            <!-- I added a table to include the reference table  -->
+            <table>
+                <caption>
+                    Reference and Source Table
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Reference number</th>
+                        <th>Source</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="source-1">1</td>
+                        <td>
+                            <p>My Health Albertha Canada. Multiple Pregnancy: Twins or More. (n.d.). </p><a href="https://myhealth.alberta.ca/Health/pages/conditions.aspx?hwid=hw236272">https://myhealth.alberta.ca/Health/pages/conditions.aspx?hwid=hw236272</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="source-2">2</td>
+                        <td>
+                            <p>Overview of Multiple Pregnancy - Stanford Medicine Children&apos;s Health. (n.d.). </p><a href="https://www.stanfordchildrens.org/en/topic/default?id=overview-of-multiple-pregnancy-85-P08019">https://www.stanfordchildrens.org/en/topic/default?id=overview-of-multiple-pregnancy-85-P08019</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="source-3">3</td>
+                        <td>
+                            <p>Overview of Multiple Pregnancy - Health Encyclopedia - University of Rochester Medical Center. (n.d.). </p><a href="https://www.urmc.rochester.edu/encyclopedia/content.aspx?contenttypeid=85&contentid=P08019">https://www.urmc.rochester.edu/encyclopedia/content.aspx?contenttypeid=85&contentid=P08019"</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="source-4">4</td>
+                        <td> 
+                            <p>Complications of Multiple Pregnancy | Johns Hopkins Medicine. (n.d.). </p><a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/staying-healthy-during-pregnancy/complications-of-multiple-pregnancy">https://www.hopkinsmedicine.org/health/conditions-and-diseases/staying-healthy-during-pregnancy/complications-of-multiple-pregnancy</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="source-5">5</td>
+                        <td>
+                            <p>Multiple Births Family Support | Multiple Births Canada | Canada. (n.d.). </p><a href="https://www.multiplebirths.ca/parents-of-multiples">https://www.multiplebirths.ca/parents-of-multiples</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="source-6">6</td>
+                        <td>
+                            <p>Multiple Pregnancy patient Educaton booklet | ReproductiveFacts.org. (2012). </p><a href="https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/multiple-pregnancy-and-birth-twins-triplets-and-high-order-multiples/">https://www.reproductivefacts.org/news-and-publications/fact-sheets-and-infographics/multiple-pregnancy-and-birth-twins-triplets-and-high-order-multiples/</a>
+                        </td>
+                    </tr>
+
+                </tbody>    
+            </table>
+            <div><a href="#thetop"><br>Back to the top</a></div>
+            <!-- I add a blank space using hr for better look and feel. -->
+            <hr>
+            <!-- Using a div to add the text alignment just to the Copyright elements -->
+            <div id="copyright">
+                <p>&copy; (2024) ADGERO Multi-wiki. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
